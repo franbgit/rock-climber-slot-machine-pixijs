@@ -1,0 +1,29 @@
+{
+  "name": "rock-climber-slot-machine-pixijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch index.ts --exec tsc --outDir output index.ts",
+    "browser-sync": "browser-sync start --server --files output/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franbgit/rock-climber-slot-machine-pixijs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franbgit/rock-climber-slot-machine-pixijs/issues"
+  },
+  "homepage": "https://github.com/franbgit/rock-climber-slot-machine-pixijs#readme",
+  "dependencies": {
+    "@types/pixi.js": "^4.5.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.0.5"
+  }
+}
